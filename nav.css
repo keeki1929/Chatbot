@@ -1,0 +1,185 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+#img{ 
+    height: 75px;
+    width: 95px;
+
+}
+#img:visited{
+    color: wheat;
+}
+
+
+#navigation{
+    background-color: black;
+    color: wheat;
+    padding: 0;
+    margin: 0;
+    position: sticky;
+    top: 0px;
+    
+
+}
+#a:link{
+    color: black;
+    text-decoration: none;
+}
+#a:visited{
+    color: black;
+    text-decoration: none;
+
+}
+
+.navbar-brand:link{
+    font-family:'Times New Roman', Times, serif;
+    font-size:xx-large;
+    font-weight: bolder;
+    border: none;
+    color: wheat;
+    width: 200px;
+    
+
+}
+.navbar-brand:visited{
+    font-family:'Times New Roman', Times, serif;
+    font-size:xx-large;
+    font-weight: bolder;
+    border: none;
+    color: wheat;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+
+
+
+#sign{
+     background-color: rgb(179, 20, 20);
+     color: black;
+     height: 45px;
+     width: 115px; 
+     border: 2px solid black;
+     border-radius: 20px;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+     text-decoration: none;
+}
+#sign:hover{
+   
+    background-color: palevioletred;
+    color: rgb(104, 45, 104);
+}
+
+#parent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#con{
+    height: 90vh;
+    width: 100%;
+    text-align: center;
+    background: url("https://static.vecteezy.com/system/resources/previews/029/783/765/large_2x/collection-of-makeup-products-and-brushes-glamorous-beauty-essentials-free-photo.jpg") no-repeat fixed ;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    background-attachment: scroll;
+}
+#text{
+    height: 150px;
+    width: 600px;
+    text-align: center;
+    border: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: wheat;
+    padding: 50px 10px 20px 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-style: inset;
+    border-width: 10px;
+    box-shadow: 0px 0px 20px wheat;
+    animation: glow 2s ease-in-out 0s infinite normal ;
+}
+
+#imgsearch{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+#imgsearch{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
+#imgsearch:hover{
+    height: 55px;
+    width: 55px;
+}
+
+@keyframes glow {
+    0%{
+
+    }
+    50%{
+        box-shadow: 0px 0px 20px black;
+    }
+    100{
+        box-shadow: 0px 0px 20px wheat;
+    }
+}
+
+#scroll{
+    border: 10px solid black;
+    height: 100vh;
+    background-color: black;
+}
+
+.card{
+    background-color: black;
+    color: wheat;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#cardholder{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+#cardholder{
+    position: relative;
+    top: 200px;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 20px wheat;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn{
+    background-color: wheat;
+    color: black;
+}
+
+

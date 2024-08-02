@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#form-holder{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 5PX 20PX 5PX 20PX;
+    background: url("https://st.depositphotos.com/3261171/5169/i/450/depositphotos_51691143-stock-photo-professional-black-make-up-brush.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#form-items{
+    border: 10px inset black;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    padding: 0PX 0px 8px 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: wheat;
+    box-shadow: 0px 0px 25px white;
+
+
+    
+}
+#form-items .label{
+    
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+   
+}
+input{
+    border: 1PX solid lightgray;
+    height: 20px;
+    reels: 85%;}
+
+
+.label:hover{
+    font-weight: 300;
+    font-size: larger;
+    
+}
+button{
+    background-color: rgba(220, 85, 108, 0.7) ;
+    color: black;
+    height: 35px;
+    width: 80px;
+    border-radius: 20px;
+    box-shadow: 0PX 0PX 10PX white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover{
+    background-color:black;
+    color: rgba(220, 85, 108, 0.7) ;
+    height: 35px;
+    width: 80px;
+    box-shadow: 0px 0px 0px wheat;
+}
+
+a:link{
+    color: wheat;
+}
+
+a:visited{
+    color: wheat;
+}
